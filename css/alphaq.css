@@ -1,0 +1,320 @@
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* header */
+header{}
+nav{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav .nav-item{}
+nav .logo{
+    float: left;
+}
+nav .logo img{
+    width: 80px;
+    }
+nav .nav-link{
+    float: right;
+    padding-top: 30px;
+    text-align: right;
+    padding-bottom: 26px;
+}
+nav .nav-link a{
+    text-transform: uppercase;
+    margin-left: 35px;
+    color: black;
+    transition: 0.8s;
+    font-weight:bold;
+}
+nav .nav-link a:hover{
+    text-decoration: none;
+    color: #000000b0;
+    transition: 0.4s;
+}
+/* header */
+.container{
+}
+/* request-section */
+.requests-section{
+    margin: 15px 0px;
+}
+.requests-section .left{
+    margin-top: 55px;
+}
+.requests-section .left h3{}
+.requests-section .left p{}
+.requests-section .left a{
+    color: #8d8d8d;
+    transition: 1s;
+    font-weight: 600;
+}
+.requests-section .left a:hover{
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+.requests-section .right {
+    border: 1px solid black;
+    background: white;
+    margin-left: 70px;
+    opacity: 0.8;
+    transition: 0.8s;
+}
+.requests-section .right:hover{
+    opacity: 1;
+    transition: 0.8s;
+}
+.requests-section .right img{
+    width: 65%;
+    margin-left: 50px;
+}
+/* request-section */
+
+/* posts-section */
+.post-section{
+    margin: 15px 0px;
+}
+.post-section .left{
+    margin-top: 55px;
+}
+.post-section .left h3{}
+.post-section .left p{}
+.post-section .left .edit-post{}
+.post-section .left .edit-post a {
+    color: #8d8d8d;
+    transition: 1s;
+    font-weight: 600;
+    margin-right: 70px;
+}
+.post-section .left .edit-post a:hover{
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+.post-section .left .delete-post{}
+.post-section .left .delete-post a {
+    color: #a9000096;
+    transition: 1s;
+    font-weight: 600;
+}
+.post-section .left .delete-post a:hover{
+    color: #dd0000;
+    text-decoration: none;
+    transition: 1s;
+}
+.post-section .right {
+    border: 1px solid black;
+    background: white;
+    margin-left: 70px;
+    opacity: 0.8;
+    transition: 0.8s;
+}
+.post-section .right:hover{
+    opacity: 1;
+    transition: 0.8s;
+}
+.post-section .right img{
+    width: 65%;
+    margin-left: 50px;
+}
+/* posts-section */
+
+/* profile */
+.profile-section{}
+.profile-section table {
+    margin: 10% 22% 0px;
+}
+.profile-section table tr{}
+.profile-section table tr th{
+    padding: 15px 80px 0 0;
+    font-size: larger;
+}
+.profile-section table tr td{
+    padding: 15px 80px 0 0;
+    font-size: large;
+    font-weight: 400;
+}
+.profile-section table tr td a{
+    color: #8d8d8d;
+    transition: 1s;
+}
+.profile-section table tr td a:hover{
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+.profile-section .profile-picture{}
+
+/* profile */
+
+/* update-password */
+.update-password{}
+.update-password table {
+    margin: 10% 22% 0px;
+}
+.update-password table tr{}
+.update-password table tr th{
+    padding: 15px 80px 0 0;
+    font-size: larger;
+}
+.update-password table tr td{
+    padding: 15px 80px 0 0;
+    font-size: large;
+    font-weight: 400;
+}
+.update-password table tr td input[type=submit]{
+    float:right;
+    color: #444444;
+    background: none;
+    transition: 1s;
+    border-radius: 5px;
+    border: none;
+}
+.update-password table tr td input[type=submit]:hover{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+    background: #00000082;
+}
+/* update-password */
+/* Edit-Username */
+.edit-username{}
+.edit-username table {
+    margin: 10% 22% 0px;
+}
+.edit-username table tr{}
+.edit-username table tr th{
+    padding: 15px 80px 0 0;
+    font-size: larger;
+}
+.edit-username table tr td{
+    padding: 15px 80px 0 0;
+    font-size: large;
+    font-weight: 400;
+}
+.edit-username table tr td input[type=submit]{
+    float:right;
+    color: #444444;
+    background: none;
+    transition: 1s;
+    border-radius: 5px;
+    border: none;
+}
+.edit-username table tr td input[type=submit]:hover{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+    background: #00000082;
+}
+/* Edit Username */
+
+/* Edit-contacr */
+.edit-contact{}
+.edit-contact table {
+    margin: 10% 22% 0px;
+}
+.edit-contact table tr{}
+.edit-contact table tr th{
+    padding: 15px 80px 0 0;
+    font-size: larger;
+}
+.edit-contact table tr td{
+    padding: 15px 80px 0 0;
+    font-size: large;
+    font-weight: 400;
+}
+.edit-contact table tr td input[type=submit]{
+    float:right;
+    color: #444444;
+    background: none;
+    transition: 1s;
+    border-radius: 5px;
+    border: none;
+}
+.edit-contact table tr td input[type=submit]:hover{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+    background: #00000082;
+}
+/* Edit contact */
+
+/* Balance */
+.balance-section{}
+.balance-section table {
+    margin: 10% 22% 0px;
+}
+.balance-section table tr{}
+.balance-section table tr th{
+    padding: 15px 80px 0 0;
+    font-size: larger;
+}
+.balance-section table tr td{
+    padding: 15px 80px 0 0;
+    font-size: large;
+    font-weight: 400;
+}
+.balance-section table tr td input[type=submit]{
+    float:right;
+    color: #444444;
+    background: none;
+    transition: 1s;
+    border-radius: 5px;
+    border: none;
+}
+.balance-section table tr input[type=submit]:hover{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+    background: #00000082;
+}
+/* Balance */
+
+/* Login-Reg */
+.log-reg{
+    text-align: center;
+}
+.log-reg h1 {
+    margin-top: 5%;
+}
+.log-reg form {
+    margin: 5% 0px 0px 38%;
+    text-align: left;
+}
+.login form table tr{
+    padding: 0 0 0 0;
+}
+.log-reg form table tr td{
+    padding: 15px 80px 0 0;
+    font-size: large;
+    font-weight: 400;
+}
+.log-reg form table tr td input[type=submit]{
+    float:right;
+    color: #444444;
+    background: none;
+    transition: 1s;
+    border-radius: 5px;
+    border: none;
+}
+.log-reg form table tr td input[type=submit]:hover{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 1s;
+    background: #00000082;
+}
+.log-reg form table tr td a{
+    color: #8d8d8d;
+    transition: 1s;
+}
+.log-reg form table tr td a:hover{
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+/* Login-Reg */

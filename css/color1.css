@@ -1,0 +1,22 @@
+*{
+      margin: 10px;
+      padding: 0px;
+}
+a{
+	font-family:'Trebuchet MS';
+	font-size:10px;
+color:black;
+margin-top:100px;
+text-decoration:none;
+}
+a:hover{color:red}
+a:active{color:black}
+
+h2{
+	font-size:40px;
+	color:black;
+	font-family:'Trebuchet MS';
+
+}
+#tab{
+	text-align:centre;
